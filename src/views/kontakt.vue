@@ -37,13 +37,12 @@ export default {};
 .contactMAIN {
   width: 100%;
   margin: auto;
-}
-.contactphoto {
+  .contactphoto {
   width: 50%;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 3%;
-  > img {
+  img {
     width: 100%;
   }
 }
@@ -67,7 +66,7 @@ export default {};
       color: #28262c;
     }
   }
-  > article {
+  article {
     font-size: 35px;
     color: #28262c;
     font-weight: 200;
@@ -75,13 +74,20 @@ export default {};
     text-align: center;
     position: relative;
     height: 80px;
-    > p {
+    .mail {
+  width: 30%;
+  display: inline-block;
+  > a {
+    color: #28262c;
+  }
+}
+    p {
       position: absolute;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
     }
-    > figure {
+    figure {
       position: absolute;
       left: 50%;
       top: 50%;
@@ -89,20 +95,16 @@ export default {};
       width: 10%;
       display: inline-block;
       transform: translate(90px, -50px);
-      > img {
+      img {
         border: none;
         width: 100%;
       }
     }
   }
 }
-.mail {
-  width: 30%;
-  display: inline-block;
-  > a {
-    color: #28262c;
-  }
+
 }
+
 @media (max-width: 410px) {
   .contactInfo {
     > p {

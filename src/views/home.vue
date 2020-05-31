@@ -74,8 +74,7 @@ main {
 			display: flex;
 		}
 	}
-}
-section {
+	section {
 	>p {
 		text-align: center;
 		font-size: 60px;
@@ -98,20 +97,8 @@ section {
 	display: flex;
 	margin: 2%;
 	margin-top: 5%;
-}
-.produkt {
-	&:hover {
-		border: dashed 3px #bea2c2;
-	}
-	border: 3px solid #bea2c2;
-	margin: 4%;
-	>a {
-		>img {
-			width: 100%;
-		}
-	}
-}
-.nazwa {
+	article{
+		.nazwa {
 	color: #28262c;
 	text-align: center;
 	font-size: 20px;
@@ -130,6 +117,24 @@ section {
 	font-weight: 200;
 	font-size: 14px;
 }
+.produkt {
+	&:hover {
+		border: dashed 3px #bea2c2;
+	}
+	border: 3px solid #bea2c2;
+	margin: 4%;
+	>a {
+		>img {
+			width: 100%;
+		}
+	}
+}
+	}
+}
+
+
+}
+
 @media (max-width: 500px) {
 	.piesek {
 		display: none;

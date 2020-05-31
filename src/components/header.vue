@@ -73,12 +73,7 @@ header {
 .phone {
   width: 80%;
 }
-.logoNAV {
-  width: 100%;
-}
-.koszykICON {
-  width: 75%;
-}
+
 nav {
   > ul {
     display: flex;
@@ -92,6 +87,9 @@ nav {
         width: 10%;
         margin: 0.8%;
         margin-left: 3%;
+        .logoNAV {
+          width: 100%;
+        }
       }
       &:last-of-type {
         margin-top: 3%;
@@ -102,6 +100,9 @@ nav {
 }
 a {
   color: #28262c;
+  .koszykICON {
+    width: 75%;
+  }
 }
 @media (max-width: 375px) {
   nav {

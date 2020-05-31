@@ -44,6 +44,14 @@ form {
     width: 100%;
     display: flex;
     margin-bottom: 5%;
+    .tresc {
+  height: 100px;
+}
+    input {
+  margin-left: 5%;
+  width: 60%;
+  border: #bea2c2 1px solid;
+}
     > p {
       color: #28262c;
       font-size: 28px;
@@ -52,23 +60,7 @@ form {
       text-align: right;
     }
   }
-}
-.sendmail {
-  color: #28262c;
-  text-align: center;
-  margin-top: 4%;
-  font-size: 40px;
-  font-weight: 200;
-}
-input {
-  margin-left: 5%;
-  width: 60%;
-  border: #bea2c2 1px solid;
-}
-.tresc {
-  height: 100px;
-}
-.submit {
+  .submit {
   border: none;
   margin-top: 5%;
   margin-bottom: 10%;
@@ -78,6 +70,16 @@ input {
     width: 120px;
   }
 }
+}
+.sendmail {
+  color: #28262c;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+
 @media (max-width: 524px) {
   .submit {
     margin-bottom: 20%;

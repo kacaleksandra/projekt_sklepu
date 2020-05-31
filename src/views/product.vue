@@ -65,14 +65,15 @@ export default {
 <style lang="scss" scoped>
 
 /* MEDIA */
-.productIN {
+
+.represent {
+	.productIN {
 	width: 100%;
 	>img {
 		width: 100%;
 		border: 3px solid #bea2c2;
 	}
 }
-.represent {
 	display: flex;
 	margin-top: 3%;
 	margin-bottom: 2%;
@@ -89,6 +90,7 @@ export default {
 		}
 	}
 }
+
 .cenaP {
 	text-align: center;
 	font-size: 30px;
@@ -117,7 +119,9 @@ export default {
 	display: block;
 	cursor: pointer;
 }
-.description {
+
+section {
+	.description {
 	font-size: 19px;
 	font-weight: 300;
 	color: #28262c;
@@ -125,20 +129,18 @@ export default {
 	margin-left: 4%;
 	margin-right: 4%;
 	width: 90%;
-}
-section {
-	>.description {
-		>li {
+	li {
 			margin-left: 3%;
 		}
-	}
+}
+
 }
 .others {
 	display: flex;
 	width: 100%;
 	justify-content: space-around;
 	>article {
-		>.produkt {
+		.produkt {
 			border: 3px solid #bea2c2;
 			margin: auto;
 			margin-top: 5%;
@@ -148,12 +150,19 @@ section {
 				border: dashed 3px #bea2c2;
 			}
 		}
-		>.nazwa {
+		.nazwa {
 			color: #28262c;
 			text-align: center;
 			font-size: 20px;
 			font-weight: 200;
 		}
+	}
+	.cena{
+margin-top: 2%;
+	color: #bea2c2;
+	text-align: center;
+	font-weight: 200;
+	font-size: 18px;
 	}
 }
 .othersD {
@@ -162,31 +171,7 @@ section {
 	text-align: center;
 	color: #bea2c2;
 }
-.produkt {
-	&:hover {
-		border: dashed 3px #bea2c2;
-	}
-	border: 3px solid #bea2c2;
-	margin: 4%;
-	>a {
-		>img {
-			width: 100%;
-		}
-	}
-}
-.nazwa {
-	color: #28262c;
-	text-align: center;
-	font-size: 20px;
-	font-weight: 200;
-}
-.cena {
-	margin-top: 2%;
-	color: #bea2c2;
-	text-align: center;
-	font-weight: 200;
-	font-size: 18px;
-}
+
 @media (max-width:600px) {
 	.represent {
 		>article {

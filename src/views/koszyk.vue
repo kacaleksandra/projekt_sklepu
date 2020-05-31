@@ -55,8 +55,7 @@ export default {};
 <style lang="scss" scoped>
 .basketMAIN {
   margin-bottom: 0px;
-}
-.topBask {
+  .topBask {
   > h2 {
     color: #bea2c2;
     font-weight: 400;
@@ -66,13 +65,25 @@ export default {};
   }
 }
 .mainSection {
-  > article {
+  article {
     display: flex;
     height: 20%;
     width: 100%;
     justify-content: space-around;
     margin-top: 5%;
-    > img {
+    .muchcontain {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  .howmuch {
+  color: #28262c;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30px;
+  font-size: 25px;
+}
+}
+    img {
       &:first-of-type {
         width: 17%;
         height: 17%;
@@ -88,24 +99,15 @@ export default {};
         cursor: pointer;
       }
     }
-    > p {
+    p {
       color: #28262c;
       margin-top: auto;
       margin-bottom: auto;
     }
   }
 }
-.muchcontain {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.howmuch {
-  color: #28262c;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 30px;
-  font-size: 25px;
-}
+
+
 .botBasket {
   display: flex;
   justify-content: right;
@@ -198,5 +200,6 @@ export default {};
       font-size: 50px;
     }
   }
+}
 }
 </style>
