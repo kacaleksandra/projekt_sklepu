@@ -45,14 +45,14 @@ form {
     display: flex;
     margin-bottom: 5%;
     .tresc {
-  height: 100px;
-}
+      height: 100px;
+    }
     input {
-  margin-left: 5%;
-  width: 60%;
-  border: #bea2c2 1px solid;
-}
-    > p {
+      margin-left: 5%;
+      width: 60%;
+      border: #bea2c2 1px solid;
+    }
+    p {
       color: #28262c;
       font-size: 28px;
       font-weight: 200;
@@ -61,15 +61,15 @@ form {
     }
   }
   .submit {
-  border: none;
-  margin-top: 5%;
-  margin-bottom: 10%;
-  margin-left: 70%;
-  background: none;
-  > img {
-    width: 120px;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 70%;
+    background: none;
+    img {
+      width: 120px;
+    }
   }
-}
 }
 .sendmail {
   color: #28262c;
@@ -79,17 +79,16 @@ form {
   font-weight: 200;
 }
 
-
 @media (max-width: 524px) {
   .submit {
     margin-bottom: 20%;
-    > img {
+    img {
       width: 80px;
     }
   }
   form {
-    > article {
-      > p {
+    article {
+      p {
         font-size: 14px;
       }
     }

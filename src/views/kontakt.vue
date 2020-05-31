@@ -56,13 +56,13 @@ export default {};
 .contactInfo {
   margin-top: 7%;
   margin-bottom: 20%;
-  > p {
+  p {
     font-size: 35px;
     color: #28262c;
     font-weight: 200;
     margin-bottom: 4%;
     text-align: center;
-    > a {
+    a {
       color: #28262c;
     }
   }
@@ -77,7 +77,7 @@ export default {};
     .mail {
   width: 30%;
   display: inline-block;
-  > a {
+  a {
     color: #28262c;
   }
 }
@@ -107,12 +107,12 @@ export default {};
 
 @media (max-width: 410px) {
   .contactInfo {
-    > p {
+    p {
       font-size: 20px;
     }
-    > article {
+    article {
       font-size: 20px;
-      > figure {
+      figure {
         transform: translate(70px, -30px);
       }
     }
@@ -123,10 +123,10 @@ export default {};
 }
 @media (max-width: 600px) AND (min-width: 410) {
   .contactInfo {
-    > p {
+    p {
       font-size: 23px;
     }
-    > article {
+    article {
       font-size: 23px;
     }
   }
@@ -136,10 +136,10 @@ export default {};
 }
 @media (min-width: 1000px) {
   .contactInfo {
-    > p {
+    p {
       font-size: 40px;
     }
-    > article {
+    article {
       font-size: 40px;
     }
   }
@@ -155,8 +155,8 @@ export default {};
 }
 @media (min-width: 1300px) {
   .contactInfo {
-    > article {
-      > figure {
+    article {
+      figure {
         transform: translate(100px, -90px);
       }
     }

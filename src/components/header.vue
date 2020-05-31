@@ -46,20 +46,20 @@ export default {};
 /* HEADER NAV */
 /* HEADER */
 header {
-  > section {
+  section {
     background-color: #bea2c2;
     display: flex;
     justify-content: space-around;
     color: white;
     padding: 0.7%;
-    > article {
+    article {
       display: flex;
       padding: 0;
       margin: 0;
-      > figure {
+      figure {
         margin-right: 7%;
         width: 12%;
-        > img {
+        img {
           width: 100%;
         }
       }
@@ -75,10 +75,10 @@ header {
 }
 
 nav {
-  > ul {
+  ul {
     display: flex;
     justify-content: space-around;
-    > li {
+    li {
       list-style-type: none;
       margin-top: 4.5%;
       margin-left: 10%;
@@ -106,9 +106,9 @@ a {
 }
 @media (max-width: 375px) {
   nav {
-    > ul {
-      > li {
-        > a {
+    ul {
+      li {
+        a {
           font-size: 15px;
         }
       }
@@ -117,7 +117,7 @@ a {
 }
 @media (max-width: 590px) and (orientation: portrait) {
   header {
-    > section {
+    section {
       &:first-of-type {
         font-size: 11px;
       }
@@ -126,7 +126,7 @@ a {
 }
 @media (max-width: 500px) {
   header {
-    > section {
+    section {
       &:first-of-type {
         font-size: 9px;
       }
@@ -136,7 +136,7 @@ a {
     display: none;
   }
   ul {
-    > li {
+    li {
       &:first-of-type {
         display: none;
       }
@@ -155,8 +155,8 @@ a {
 }
 @media (min-width: 1200px) {
   nav {
-    > ul {
-      > li {
+    ul {
+      li {
         font-size: 22px;
         margin-top: 3.5%;
         &:last-of-type {

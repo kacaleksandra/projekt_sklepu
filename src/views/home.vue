@@ -59,142 +59,139 @@ export default {};
 /* MAIN */
 /* MEDIA */
 main {
-	margin-bottom: 5%;
-	margin-left: auto;
-	margin-right: auto;
-	>section {
-		>figure {
-			height: 80%;
-			>img {
-				width: 100%;
-				border-bottom: solid 2px #bea2c2;
-			}
-		}
-		>section {
-			display: flex;
-		}
-	}
-	section {
-	>p {
-		text-align: center;
-		font-size: 60px;
-		margin-top: 1.5%;
-		color: #bea2c2;
-		width: 100%;
-	}
-}
-.piesek {
-	width: 5%;
-}
-.line {
-	color: #bea2c2;
-	width: 60%;
-	margin: auto;
-	margin-top: 2%;
-	border: 2px solid #bea2c2;
-}
-.produkty {
-	display: flex;
-	margin: 2%;
-	margin-top: 5%;
-	article{
-		.nazwa {
-	color: #28262c;
-	text-align: center;
-	font-size: 20px;
-	font-weight: 200;
-}
-.cena {
-	margin-top: 2%;
-	color: #bea2c2;
-	text-align: center;
-	font-weight: 200;
-	font-size: 18px;
-}
-.Scena {
-	color: #bea2c2;
-	text-align: center;
-	font-weight: 200;
-	font-size: 14px;
-}
-.produkt {
-	&:hover {
-		border: dashed 3px #bea2c2;
-	}
-	border: 3px solid #bea2c2;
-	margin: 4%;
-	>a {
-		>img {
-			width: 100%;
-		}
-	}
-}
-	}
-}
-
-
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  section {
+    figure {
+      height: 80%;
+      img {
+        width: 100%;
+        border-bottom: solid 2px #bea2c2;
+      }
+    }
+    section {
+      display: flex;
+    }
+  }
+  section {
+    p {
+      text-align: center;
+      font-size: 60px;
+      margin-top: 1.5%;
+      color: #bea2c2;
+      width: 100%;
+    }
+  }
+  .piesek {
+    width: 5%;
+  }
+  .line {
+    color: #bea2c2;
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+    border: 2px solid #bea2c2;
+  }
+  .produkty {
+    display: flex;
+    margin: 2%;
+    margin-top: 5%;
+    article {
+      .nazwa {
+        color: #28262c;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 200;
+      }
+      .cena {
+        margin-top: 2%;
+        color: #bea2c2;
+        text-align: center;
+        font-weight: 200;
+        font-size: 18px;
+      }
+      .Scena {
+        color: #bea2c2;
+        text-align: center;
+        font-weight: 200;
+        font-size: 14px;
+      }
+      .produkt {
+        &:hover {
+          border: dashed 3px #bea2c2;
+        }
+        border: 3px solid #bea2c2;
+        margin: 4%;
+        a {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 500px) {
-	.piesek {
-		display: none;
-	}
-	.pr {
-		font-size: 30px;
-	}
+  .piesek {
+    display: none;
+  }
+  .pr {
+    font-size: 30px;
+  }
 }
 @media (min-width: 501px) and(max-width:700px) {
-	main {
-		padding-bottom: 40px;
-	}
+  main {
+    padding-bottom: 40px;
+  }
 }
 @media (min-width: 1000px) {
-	.nazwa {
-		color: #28262c;
-		text-align: center;
-		font-size: 25px;
-		font-weight: 200;
-	}
-	.cena {
-		margin-top: 2%;
-		color: #bea2c2;
-		text-align: center;
-		font-weight: 200;
-		font-size: 23px;
-	}
-	.Scena {
-		color: #bea2c2;
-		text-align: center;
-		font-weight: 200;
-		font-size: 20px;
-	}
-	.piesek {
-		width: 4%;
-	}
+  .nazwa {
+    color: #28262c;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+  }
+  .cena {
+    margin-top: 2%;
+    color: #bea2c2;
+    text-align: center;
+    font-weight: 200;
+    font-size: 23px;
+  }
+  .Scena {
+    color: #bea2c2;
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+  }
+  .piesek {
+    width: 4%;
+  }
 }
 @media (min-width: 1200px) {
-	.nazwa {
-		color: #28262c;
-		text-align: center;
-		font-size: 30px;
-		font-weight: 200;
-	}
-	.cena {
-		margin-top: 2%;
-		color: #bea2c2;
-		text-align: center;
-		font-weight: 200;
-		font-size: 27px;
-	}
-	.Scena {
-		color: #bea2c2;
-		text-align: center;
-		font-weight: 200;
-		font-size: 23px;
-	}
-	.piesek {
-		width: 4%;
-	}
+  .nazwa {
+    color: #28262c;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .cena {
+    margin-top: 2%;
+    color: #bea2c2;
+    text-align: center;
+    font-weight: 200;
+    font-size: 27px;
+  }
+  .Scena {
+    color: #bea2c2;
+    text-align: center;
+    font-weight: 200;
+    font-size: 23px;
+  }
+  .piesek {
+    width: 4%;
+  }
 }
-
 </style>

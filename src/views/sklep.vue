@@ -177,7 +177,7 @@ export default {};
   gap: 1px 1px;
   grid-template-areas: ". . ." ". . ." ". . .";
   margin-top: 5%;
-  > section {
+  section {
     width: 70%;
     margin: auto;
     padding: 6%;
@@ -191,7 +191,7 @@ export default {};
     .click {
       width: 1000%;
       cursor: pointer;
-      > img {
+      img {
         width: 20%;
         display: block;
         margin: auto;

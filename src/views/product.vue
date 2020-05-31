@@ -69,7 +69,7 @@ export default {
 .represent {
 	.productIN {
 	width: 100%;
-	>img {
+	img {
 		width: 100%;
 		border: 3px solid #bea2c2;
 	}
@@ -77,10 +77,10 @@ export default {
 	display: flex;
 	margin-top: 3%;
 	margin-bottom: 2%;
-	>article {
+	article {
 		width: 50%;
 		padding: 4%;
-		>p {
+		p {
 			&:first-of-type {
 				text-align: center;
 				font-size: 30px;
@@ -139,7 +139,7 @@ section {
 	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	>article {
+	article {
 		.produkt {
 			border: 3px solid #bea2c2;
 			margin: auto;
@@ -174,7 +174,7 @@ margin-top: 2%;
 
 @media (max-width:600px) {
 	.represent {
-		>article {
+		article {
 			>p {
 				font-size: 23px;
 			}
