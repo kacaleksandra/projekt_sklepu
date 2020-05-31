@@ -40,8 +40,19 @@ export default {};
 form {
   display: block;
   margin-top: 8%;
+  > article {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
+    > p {
+      color: #28262c;
+      font-size: 28px;
+      font-weight: 200;
+      width: 20%;
+      text-align: right;
+    }
+  }
 }
-
 .sendmail {
   color: #28262c;
   text-align: center;
@@ -49,54 +60,37 @@ form {
   font-size: 40px;
   font-weight: 200;
 }
-
-form > article {
-  width: 100%;
-  display: flex;
-  margin-bottom: 5%;
-}
-
-form > article > p {
-  color: #28262c;
-  font-size: 28px;
-  font-weight: 200;
-  width: 20%;
-  text-align: right;
-}
-
 input {
   margin-left: 5%;
   width: 60%;
   border: #bea2c2 1px solid;
 }
-
 .tresc {
   height: 100px;
 }
-
 .submit {
   border: none;
   margin-top: 5%;
   margin-bottom: 10%;
   margin-left: 70%;
   background: none;
+  > img {
+    width: 120px;
+  }
 }
-
-.submit > img {
-  width: 120px;
-}
-
 @media (max-width: 524px) {
   .submit {
     margin-bottom: 20%;
+    > img {
+      width: 80px;
+    }
   }
-
-  form > article > p {
-    font-size: 14px;
-  }
-
-  .submit > img {
-    width: 80px;
+  form {
+    > article {
+      > p {
+        font-size: 14px;
+      }
+    }
   }
 }
 </style>

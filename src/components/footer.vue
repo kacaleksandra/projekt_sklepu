@@ -36,78 +36,92 @@ export default {};
 /* FOOTER */
 
 footer {
-  background-color: #bea2c2;
-  margin-top: 13%;
+	background-color: #bea2c2;
+	margin-top: 13%;
+	>section {
+		>article {
+			>p {
+				>a {
+					color: white;
+					font-size: 15px;
+					font-weight: 200;
+				}
+				color: white;
+				font-size: 15px;
+				font-weight: 200;
+			}
+		}
+		display: flex;
+		justify-content: space-around;
+	}
 }
-
-footer > section > article > p > a,
-footer > section > article > p {
-  color: white;
-  font-size: 15px;
-  font-weight: 200;
+.prod {
+	>p {
+		margin: 20px;
+	}
 }
-
-footer > section {
-  display: flex;
-  justify-content: space-around;
-}
-
-.prod > p {
-  margin: 20px;
-}
-
 .question {
-  margin: 20px;
+	margin: 20px;
 }
-
 @media (max-width: 590px) and (orientation: portrait) {
-  .IndFooter {
-    //position: absolute;
-    width: 100%;
-    //bottom: 0px;
-  }
+	.IndFooter {
+		width: 100%;
+	}
 }
 @media (max-width: 500px) {
-  .prod > p > a {
-    font-size: 10px;
-  }
-
-  .question > p {
-    font-size: 10px;
-  }
-
-  .prod > p {
-    margin: 6px;
-  }
-
-  .question {
-    margin: 10px;
-  }
+	.prod {
+		>p {
+			>a {
+				font-size: 10px;
+			}
+			margin: 6px;
+		}
+	}
+	.question {
+		>p {
+			font-size: 10px;
+		}
+		margin: 10px;
+	}
 }
 @media (min-width: 1000px) {
-  footer > section > article > p > a,
-  footer > section > article > p {
-    font-size: 20px;
-  }
+	footer {
+		>section {
+			>article {
+				>p {
+					>a {
+						font-size: 20px;
+					}
+					font-size: 20px;
+				}
+			}
+		}
+	}
 }
-
 @media (min-width: 1200px) {
-  footer > section > article > p > a,
-  footer > section > article > p {
-    font-size: 25px;
-  }
-
-  footer > section {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .prod > p {
-    margin: 20px;
-  }
-
-  .question {
-    margin: 15px;
-  }
+	footer {
+		>section {
+			>article {
+				>p {
+					>a {
+						font-size: 25px;
+					}
+					font-size: 25px;
+				}
+			}
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+	.prod {
+		>p {
+			margin: 20px;
+		}
+	}
+	.question {
+		margin: 15px;
+	}
 }
+
+
 </style>
