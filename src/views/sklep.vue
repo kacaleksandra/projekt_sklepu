@@ -177,39 +177,37 @@ export default {};
   gap: 1px 1px;
   grid-template-areas: ". . ." ". . ." ". . .";
   margin-top: 5%;
-  section {
+  > section {
     width: 70%;
     margin: auto;
     padding: 6%;
   }
-
-  .clicks {
-    display: flex;
-    margin: auto;
-    width: 100%;
-
-    .click {
-      width: 1000%;
-      cursor: pointer;
-      img {
-        width: 20%;
-        display: block;
-        margin: auto;
-      }
+}
+.clicks {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  .click {
+    width: 1000%;
+    cursor: pointer;
+    > img {
+      width: 20%;
+      display: block;
+      margin: auto;
     }
   }
-  .formSklep {
-    display: flex;
-    margin-top: 4%;
-    color: #28262c;
-    justify-content: space-around;
+}
 
-    .formS {
-      display: block;
-      width: 100%;
-      text-align: center;
-      font-size: 19px;
-    }
+.formSklep {
+  display: flex;
+  margin-top: 4%;
+  color: #28262c;
+  justify-content: space-around;
+  .formS {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
     select {
       font-size: 19px;
       border: 2px solid #bea2c2;
@@ -223,29 +221,29 @@ export default {};
       -moz-text-align-last: center;
     }
   }
-  .productIN {
+}
+.productIN {
+  width: 100%;
+  > img {
     width: 100%;
-    > img {
-      width: 100%;
-      border: 3px solid #bea2c2;
-      &:hover {
-        border: dashed 3px #bea2c2;
-      }
+    border: 3px solid #bea2c2;
+    &:hover {
+      border: dashed 3px #bea2c2;
     }
   }
-  .nazwa {
-    color: #28262c;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 200;
-  }
-  .cena {
-    margin-top: 2%;
-    color: #bea2c2;
-    text-align: center;
-    font-weight: 200;
-    font-size: 18px;
-  }
+}
+.nazwa {
+  color: #28262c;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+.cena {
+  margin-top: 2%;
+  color: #bea2c2;
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
 }
 @media (max-width: 670px) and (orientation: portrait) {
   .formS {
