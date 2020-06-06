@@ -64,7 +64,6 @@ main {
   margin-right: auto;
   section {
     figure {
-      height: 80%;
       img {
         width: 100%;
         //border-bottom: solid 2px #bea2c2;

@@ -5,23 +5,23 @@
     <form>
       <article>
         <p>Imię:</p>
-        <input type="text" name="imie" />
+        <input type="text" name="imie" required/>
       </article>
       <article>
         <p>Nazwisko:</p>
-        <input type="text" name="nazwisko" />
+        <input type="text" name="nazwisko" required/>
       </article>
       <article>
         <p>e-mail:</p>
-        <input type="text" name="email" />
+        <input type="text" name="email" required/>
       </article>
       <article>
         <p>Temat:</p>
-        <input type="text" name="temat" />
+        <input type="text" name="temat" required />
       </article>
       <article>
         <p>Treść:</p>
-        <input type="text" class="tresc" name="tresc" />
+        <input type="text" class="tresc" name="tresc" required/>
       </article>
       <button type="submit" class="submit">
         <img src="../assets/icons/MAIL/email.png" />
